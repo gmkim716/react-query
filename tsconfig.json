@@ -22,5 +22,5 @@
   },
   "include": [
     "src"
-  ]
+, "types/types.ts", "src/apis/api.ts"  ]
 }
