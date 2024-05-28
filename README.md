@@ -71,7 +71,7 @@ export const queryClient = new QueryClient({
 })
 ```
 
-### Queries
+### 1. Queries
 
 서버에서 데이터를 받아올 때 사용하는 기능
 
@@ -102,7 +102,7 @@ const query = useQuery({
 - isLoading: 최초의 fetch가 in-flight 상태일 때 true 반환
 - isFetching; fetchi가 실행될 때마다 true 반환
 
-### Mutations
+### 2. Mutations
 
 서버의 데이터를 수정할 때 사용
 
